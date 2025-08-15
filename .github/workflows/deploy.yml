@@ -36,7 +36,14 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --debug
+
+      - name: List build output
+        run: |
+          echo "dist 內容："
+          ls -lh dist
+          echo "dist/assets 內容："
+          ls -lh dist/assets || echo "dist/assets 不存在"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
