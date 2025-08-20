@@ -2,17 +2,13 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
 
-# Required/Recommended for Pages Actions
 permissions:
   contents: read
   pages: write
   id-token: write
-  actions: read
 
-# Prevent overlapping deployments
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -35,13 +31,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Show dist contents (debug)
-        run: |
-          echo "PWD: $(pwd)"
-          if [ -d dist ]; then ls -la dist; else echo "dist not found"; fi
-          find dist -maxdepth 3 -type f -print || true
-
-      # Helps Pages infer metadata (optional but recommended)
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
@@ -56,11 +45,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-      actions: read
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
