@@ -1,25 +1,25 @@
 <template>
-  <v-app>
-    <v-app-bar app color="primary" dark>
+  <v-app :class="isDark ? 'academy-dark' : 'academy-light'">
+    <v-app-bar app class="academy-app-bar" dark>
       <v-spacer />
       <v-btn text to="/">Home</v-btn>
-      <v-menu offset-y>
+  <v-menu offset-y>
         <template #activator="{ props }">
           <v-btn text v-bind="props">About Me <v-icon right>mdi-menu-down</v-icon></v-btn>
         </template>
         <v-list>
-          <v-list-item href="#about-me">
+          <v-list-item href="/#about-me">
             <v-list-item-title>About Me</v-list-item-title>
           </v-list-item>
-          <v-list-item href="#work-experience">
+          <v-list-item href="/#work-experience">
             <v-list-item-title>Work Experience</v-list-item-title>
           </v-list-item>
-          <v-list-item href="#education">
+          <v-list-item href="/#education">
             <v-list-item-title>Education</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
-      <v-menu offset-y>
+  <v-menu offset-y>
         <template #activator="{ props }">
           <v-btn text v-bind="props">Publications <v-icon right>mdi-menu-down</v-icon></v-btn>
         </template>
@@ -38,6 +38,9 @@
           </v-list-item>
         </v-list>
       </v-menu>
+      <v-btn icon class="theme-toggle-btn" @click="toggleTheme" title="切換白天/黑夜模式">
+        <v-icon>{{ isDark ? 'mdi-weather-sunny' : 'mdi-weather-night' }}</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-main>
       <router-view />
@@ -64,7 +67,19 @@ export default {
   name: 'App',
   data() {
     return {
-      showDeclaration: false
+      showDeclaration: false,
+      isDark: false
+    }
+  },
+  mounted() {
+    // 若有 localStorage 記錄則自動套用
+    const theme = localStorage.getItem('academy-theme');
+    if (theme === 'dark') this.isDark = true;
+  },
+  methods: {
+    toggleTheme() {
+      this.isDark = !this.isDark;
+      localStorage.setItem('academy-theme', this.isDark ? 'dark' : 'light');
     }
   }
 }
@@ -73,6 +88,65 @@ export default {
 <style scoped>
 .v-application {
   font-family: 'Noto Sans TC', 'Roboto', Arial, sans-serif;
+}
+
+/* 學院風主題色變數 */
+:root {
+  --academy-bg-light: #f7f3e9;
+  --academy-bg-dark: #23243a;
+  --academy-card-light: #fcfaf6;
+  --academy-card-dark: #2d2e48;
+  --academy-text-light: #222;
+  --academy-text-dark: #e6e6e6;
+}
+
+.academy-light {
+  background: var(--academy-bg-light);
+  color: var(--academy-text-light);
+}
+.academy-dark {
+  background: var(--academy-bg-dark);
+  color: var(--academy-text-dark);
+}
+.academy-light .v-main, .academy-light .v-application {
+  background: var(--academy-bg-light) !important;
+  color: var(--academy-text-light) !important;
+}
+.academy-dark .v-main, .academy-dark .v-application {
+  background: var(--academy-bg-dark) !important;
+  color: var(--academy-text-dark) !important;
+}
+.academy-light .pub-card, .academy-light .academy-section-card {
+  background: var(--academy-card-light) !important;
+  color: var(--academy-text-light) !important;
+}
+.academy-dark .pub-card, .academy-dark .academy-section-card {
+  background: var(--academy-card-dark) !important;
+  color: var(--academy-text-dark) !important;
+  border-color: #bfa14a !important;
+}
+.academy-dark .academy-app-bar {
+  background: #181a2b !important;
+  color: #fff !important;
+  border-bottom: 3px solid #bfa14a;
+}
+.academy-light .academy-app-bar {
+  background: #1a237e !important;
+  color: #fff !important;
+  border-bottom: 3px solid #bfa14a;
+}
+.academy-dark .footer-copyright {
+  background: #23243a !important;
+  color: #e6e6e6 !important;
+  border-top: 1.5px solid #bfa14a;
+}
+.academy-light .footer-copyright {
+  background: #f9f8f6 !important;
+  color: #333 !important;
+  border-top: 1.5px solid #d1c7b7;
+}
+.theme-toggle-btn {
+  margin-left: 1.2em;
 }
 .footer-copyright {
   background: #f9f8f6;
@@ -122,3 +196,11 @@ export default {
   transition: opacity 0.2s;
 }
 </style>
+
+/* 學院風 v-app-bar 樣式 */
+.academy-app-bar {
+  background: #1a237e !important; /* 深學院藍 */
+  color: #fff !important;
+  box-shadow: 0 2px 8px 0 rgba(26,35,126,0.10);
+  border-bottom: 3px solid #bfa14a;
+}

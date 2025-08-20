@@ -78,10 +78,16 @@ export default {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background: var(--academy-bg);
+  background: #f7f3e9; /* parchment/ivory academic look */
   border: 2px solid var(--academy-border);
   box-shadow: 0 4px 24px 0 rgba(26,35,126,0.08);
   font-family: 'EB Garamond', 'Noto Serif TC', serif;
+}
+
+.academy-section-card {
+  background: #fcfaf6; /* lighter parchment for section cards */
+  border: 1.5px solid var(--academy-border);
+  box-shadow: 0 2px 8px 0 rgba(26,35,126,0.04);
 }
 
 .academy-header {

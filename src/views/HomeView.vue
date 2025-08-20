@@ -21,7 +21,7 @@
               <div class="p-3 tidy-p about-me-text">
                 <p>August F.Y. Chao, Ph.D. — Academic, engineer, and philosopher. Dedicated to research, teaching, and the pursuit of knowledge.</p>
                 <ul class="about-contact-list">
-                  <li>Email: <a href="mailto:FYCHAO.tw@gmail.com">FYCHAO.tw@gmail.com</a></li>
+                  <li>Email: <a href="mailto:augchao@gms.npu.edu.tw">AugChao@gms.NPU.edu.tw</a> | <a href="mailto:FYCHAO.tw@gmail.com">FYCHAO.tw@gmail.com</a></li>
                   <li>Address: No. 300, Liuhe Rd., Magong City, Penghu County 880011</li>
                   <li><a href="https://devsecopslab-csie-npu.github.io/" target="_blank">DevSecOps Lab @NPU-CSIE</a></li>
                   <li><a href="https://orcid.org/0009-0009-9111-9763" target="_blank">https://orcid.org/0009-0009-9111-9763</a></li>
@@ -100,10 +100,16 @@ html, body, .v-application, .pub-card, .academy-header, .academy-card, .academy-
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background: var(--academy-bg);
+  background: #f7f3e9; /* parchment/ivory academic look */
   border: 2px solid var(--academy-border);
   box-shadow: 0 4px 24px 0 rgba(26,35,126,0.08);
   font-family: 'EB Garamond', 'Noto Serif TC', serif;
+}
+
+.academy-section-card {
+  background: #fcfaf6; /* lighter parchment for section cards */
+  border: 1.5px solid var(--academy-border);
+  box-shadow: 0 2px 8px 0 rgba(26,35,126,0.04);
 }
 .academy-header {
   display: flex;
