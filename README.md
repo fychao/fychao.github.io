@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# fychao.github.io
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repository is a minimal Vue 3 + Vite site intended as an academic homepage and is set up to deploy to GitHub Pages via Actions.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Quick start
+
+```bash
+# install
+npm install
+
+# run dev server
+npm run dev
+
+# build for production
+npm run build
+```
+
+Notes
+- The GitHub Actions workflow builds the site and deploys the `dist` folder to GitHub Pages when you push to `master`.
+- Update `src/App.vue` with your real information, publications, and contact details.
