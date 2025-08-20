@@ -36,7 +36,7 @@ jobs:
           echo "Files under dist:"; find dist -maxdepth 3 -type f -print || true
 
       - name: Upload artifact
-  uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
 
