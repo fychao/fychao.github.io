@@ -8,7 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 
@@ -38,9 +37,6 @@ Desktop.ini
 # local dev server 產生的檔案
 *.local
 
-# 產生的靜態資源
-/dist/
-/dist-ssr/
 
 # 其他
 npm-debug.log*
