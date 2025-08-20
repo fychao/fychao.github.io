@@ -5,10 +5,17 @@ on:
     branches:
       - master
 
+# Required/Recommended for Pages Actions
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
+
+# Prevent overlapping deployments
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,7 +27,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 18
 
       - name: Install dependencies
         run: npm ci
@@ -31,18 +38,30 @@ jobs:
       - name: Show dist contents (debug)
         run: |
           echo "PWD: $(pwd)"
-          echo "Dist exists:"
           if [ -d dist ]; then ls -la dist; else echo "dist not found"; fi
-          echo "Files under dist:"; find dist -maxdepth 3 -type f -print || true
+          find dist -maxdepth 3 -type f -print || true
+
+      # Helps Pages infer metadata (optional but recommended)
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-  uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+      actions: read
     steps:
       - name: Deploy to GitHub Pages
-  uses: actions/deploy-pages@v1
+        id: deployment
+        uses: actions/deploy-pages@v4
