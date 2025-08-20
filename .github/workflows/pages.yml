@@ -28,6 +28,13 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Show dist contents (debug)
+        run: |
+          echo "PWD: $(pwd)"
+          echo "Dist exists:"
+          if [ -d dist ]; then ls -la dist; else echo "dist not found"; fi
+          echo "Files under dist:"; find dist -maxdepth 3 -type f -print || true
+
       - name: Upload artifact
   uses: actions/upload-pages-artifact@v4
         with:
