@@ -1,7 +1,8 @@
+
 <template>
-  <v-row>
-    <v-col cols="12">
-      <v-card class="pub-card academy-card">
+  <div class="row">
+    <div class="col-12">
+      <div class="pub-card academy-card">
         <div class="hero-flex-row">
           <div class="hero-main-content">
             <h1 class="academy-main-title">August F.Y. Chao, Ph.D.</h1>
@@ -14,7 +15,7 @@
             <img class="photo-hero-img" src="/imgs/MyPhoto2024.jpeg" alt="August F.Y. Chao" title="Me, 2024" />
           </div>
         </div>
-        <v-card-text>
+        <div class="card-text">
           <section id="about-me" class="academy-section tidy-section">
             <h2 class="academy-section-title tidy-section-title">About Me</h2>
             <div class="academy-section-card tidy-section-card about-me-flex">
@@ -26,6 +27,7 @@
                   <li><a href="https://devsecopslab-csie-npu.github.io/" target="_blank">DevSecOps Lab @NPU-CSIE</a></li>
                   <li><a href="https://orcid.org/0009-0009-9111-9763" target="_blank">https://orcid.org/0009-0009-9111-9763</a></li>
                   <li><a href="https://github.com/fychao/fychao.github.io" target="_blank">Modify This</a></li>
+                  <li><img src="/imgs/aug_say.png" /><a href="https://git.vastvision.tw/class-anno/for-114yr" target="_blank">Aug 老師的雜唸 (GitLab) </a></li>
                 </ul>
               </div>
               <!-- photo removed from here -->
@@ -72,10 +74,10 @@
               </div>
             </div>
           </section>
-        </v-card-text>
-      </v-card>
-    </v-col>
-  </v-row>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
