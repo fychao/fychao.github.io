@@ -21,14 +21,48 @@
             <div class="academy-section-card tidy-section-card about-me-flex">
               <div class="p-3 tidy-p about-me-text">
                 <p>August F.Y. Chao, Ph.D. — Academic, engineer, and philosopher. Dedicated to research, teaching, and the pursuit of knowledge.</p>
-                <ul class="about-contact-list">
-                  <li>Email: <a href="mailto:augchao@gms.npu.edu.tw">AugChao@gms.NPU.edu.tw</a> | <a href="mailto:FYCHAO.tw@gmail.com">FYCHAO.tw@gmail.com</a></li>
-                  <li>Address: No. 300, Liuhe Rd., Magong City, Penghu County 880011</li>
-                  <li><a href="https://devsecopslab-csie-npu.github.io/" target="_blank">DevSecOps Lab @NPU-CSIE</a></li>
-                  <li><a href="https://orcid.org/0009-0009-9111-9763" target="_blank">https://orcid.org/0009-0009-9111-9763</a></li>
-                  <li><a href="https://github.com/fychao/fychao.github.io" target="_blank">Modify This</a></li>
-                  <li><img src="/imgs/aug_say.png" /><a href="https://git.vastvision.tw/class-anno/for-114yr" target="_blank">Aug 老師的雜唸 (GitLab) </a></li>
-                </ul>
+                <div class="bio-block">
+                  <p>
+                    August F. Y. Chao (Member, IEEE) is an Assistant Professor with the Department of Computer Science and Information Engineering, National Penghu University of Science and Technology, Penghu, Taiwan, and Chief Engineer at Taiwan Web Service (TWS). His experience includes leading cloud platform architecture and DevOps for the Taiwan Computing Cloud (TWCC) and Taiwania II supercomputer. He previously worked at the National Center for High-Performance Computing and the Industrial Technology Research Institute, focusing on AI-HPC infrastructure and NLP patents. He received the Ph.D. degree in Management Information Systems from National Chengchi University, Taipei, Taiwan, in 2016. His research interests include computational linguistics, AI-HPC systems, cloud service architectures, and IoT-driven intelligent platforms.
+                  </p>
+                </div>
+                <div class="about-contact-table-wrap">
+                  <table class="contact-table">
+                    <tbody>
+                      <tr>
+                        <th>Email</th>
+                        <td>
+                          <a href="mailto:augchao@gms.npu.edu.tw">AugChao@gms.NPU.edu.tw</a>
+                          <span class="sep">|</span>
+                          <a href="mailto:FYCHAO.tw@gmail.com">FYCHAO.tw@gmail.com</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Address</th>
+                        <td>No. 300, Liuhe Rd., Magong City, Penghu County 880011</td>
+                      </tr>
+                      <tr>
+                        <th>Lab</th>
+                        <td><a href="https://devsecopslab-csie-npu.github.io/" target="_blank">DevSecOps Lab @NPU-CSIE</a></td>
+                      </tr>
+                      <tr>
+                        <th>ORCID</th>
+                        <td><a href="https://orcid.org/0009-0009-9111-9763" target="_blank">https://orcid.org/0009-0009-9111-9763</a></td>
+                      </tr>
+                      <tr>
+                        <th>Source</th>
+                        <td><a href="https://github.com/fychao/fychao.github.io" target="_blank">Modify This</a></td>
+                      </tr>
+                      <tr>
+                        <th>Notes</th>
+                        <td class="notes-cell">
+                          <img src="/imgs/aug_say.png" alt="aug say" />
+                          <a href="https://git.vastvision.tw/class-anno/for-114yr" target="_blank">Aug 老師的雜唸 (GitLab)</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
               <!-- photo removed from here -->
             </div>
@@ -215,6 +249,35 @@ html, body, .v-application, .pub-card, .academy-header, .academy-card, .academy-
 }
 .about-me-text {
   flex: 1 1 0;
+}
+
+/* Contact table styles */
+.about-contact-table-wrap {
+  margin-top: 0.8rem;
+}
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+.contact-table th {
+  text-align: left;
+  padding: 0.45rem 0.6rem 0.45rem 0;
+  width: 120px;
+  color: var(--academy-navy);
+  font-weight: 700;
+  vertical-align: top;
+}
+.contact-table td {
+  padding: 0.45rem 0 0.45rem 0;
+  color: #333;
+}
+.contact-table .sep { margin: 0 0.5rem; color: #999 }
+.notes-cell img { width: 26px; vertical-align: middle; margin-right: 0.5rem }
+
+@media (max-width: 600px) {
+  .contact-table th { display: block; width: auto; padding-bottom: 0.25rem }
+  .contact-table td { display: block; padding-bottom: 0.75rem }
 }
 .about-me-photo {
   flex: 0 0 auto;

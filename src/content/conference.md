@@ -1,5 +1,25 @@
 <ol>
-  <li><strong>August F. Y. Chao</strong>, "運用增強檢索生成技術在農業應用初探-以番茄種植為例"， to be announced in 第29屆資訊管理暨實務研討會(IMP 2024).</li>
+  <li>
+    <p>C.-W. Huang, Y.-C. Lin, J.-Y. Chen, and <strong>A. Chao</strong>, “LLM–SLM Hybrid Agents for Secure Audit Processing,” in <em>Proc. 2025 IEEE Global Conf. on Consumer Electronics (GCCE)</em>, 2025.</p>
+  </li>
+  <li>
+    <p><strong>A. Chao</strong> and W. Pan, “From Data to Narrative: A Generative AI Pipeline for Cultural Heritage Audio Guides,” in <em>Proc. 2025 IEEE Int. Conf. on Consumer Electronics – Taiwan (ICCE-TW)</em>, 2025.</p>
+  </li>
+  <li>
+    <p>A. Huang and <strong>A. Chao</strong>, “Exploring Language Agents for Automated Compliance Audits in Cybersecurity Governance,” in <em>Proc. 2025 IEEE Int. Conf. on Consumer Electronics – Taiwan (ICCE-TW)</em>, 2025.</p>
+  </li>
+  <li>
+    <p>楊曜承, 黃鴻霖, <strong>趙逢毅</strong>, “從數據到決策：智慧視覺化技術助力離島永續觀光發展,” in <em>ITAOI 2025 離島資訊應用與創新研討會</em>, 臺灣澎湖, 2025.</p>
+  </li>
+  <li>
+    <p>黃崇威, 陳佳佑, 林祐晨, <strong>趙逢毅</strong>, “基於低功耗物聯網設備的氣候監控系統架構與視覺化界面設計,” in <em>ITAOI 2025 離島資訊應用與創新研討會</em>, 臺灣澎湖, 2025.</p>
+  </li>
+  <li>
+    <strong>A. Chao</strong>, “Corn Cultivation with Precision: Language Agents for Real-Time Decision Making,”
+    in <em>Proc. 2025 1st Int. Conf. on Consumer Technology (ICCT-Pacific)</em>, Mar. 2025,
+    doi: <a href="https://doi.org/10.1109/ICCT-Pacific63901.2025.11012907">10.1109/ICCT-Pacific63901.2025.11012907</a>.
+  </li>
+  <li><strong>August F. Y. Chao</strong>, "運用增強檢索生成技術在農業應用初探-以番茄種植為例"，第29屆資訊管理暨實務研討會(IMP 2024).</li>
   <li><strong>August F. Y. Chao</strong>, "Blending Visitor Familiarity and Site Significance: RAG Enhanced Heritage Interpretation," In 2024 IEEE 13th Global Conference on Consumer Electronics (GCCE 2024), IEEE.</li>
   <li><strong>August F. Y. Chao</strong>, Yi Lun Tseng, "From SSDs to AI: Evolving Data Center Architectures for the Next Generation," 2024, TANET, Taipei, Taiwan.</li>
   <li>Y.-S. Liu, H.-C. Lai, J.-L. Huang and <strong>August F. Y. Chao</strong>, "On Detecting Cloud Container Failures from Computing Utility Sequences," Proceedings of Asia-Pacific Network Operations and Management Symposium (APNOMS), September 8-10, 2021. (Poster)</li>
