@@ -59,6 +59,9 @@
                           <img src="/imgs/aug_say.png" alt="aug say" />
                           <a href="https://git.vastvision.tw/class-anno/for-114yr" target="_blank">Aug 老師的雜唸 (GitLab)</a>
                         </td>
+                        <td class="notes-cell">
+                          <a href="https://hackmd.io/@aug-npu/H1jtoxC0gl" target="_blank">🧑‍💻⚡資安戰隊⚔️</a>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
