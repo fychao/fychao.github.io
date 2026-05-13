@@ -16,7 +16,8 @@
           </div>
         </div>
         <div class="card-text">
-          <section id="about-me" class="academy-section tidy-section">
+          <div class="two-columns">
+            <section id="about-me" class="academy-section tidy-section">
             <h2 class="academy-section-title tidy-section-title">About Me</h2>
             <div class="academy-section-card tidy-section-card about-me-flex">
               <div class="p-3 tidy-p about-me-text">
@@ -69,8 +70,8 @@
               </div>
               <!-- photo removed from here -->
             </div>
-          </section>
-          <section id="work-experience" class="academy-section">
+            </section>
+            <section id="work-experience" class="academy-section">
             <h2 class="academy-section-title">Work Experience</h2>
             <div class="academy-section-card">
               <div class="p-3">
@@ -96,7 +97,8 @@
                 </ul>
               </div>
             </div>
-          </section>
+            </section>
+          </div>
           <section id="education" class="academy-section">
             <h2 class="academy-section-title">Education</h2>
             <div class="academy-section-card">
@@ -107,6 +109,19 @@
                   <li>國立交通大學 管理科學學系，學士，August 1999~July 2002。</li>
                   <li>中華大學 資訊工程學系，學士肆，August 1997~July 1999。</li>
                   <li>省立鳳山高級中學。</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section id="publications" class="academy-section">
+            <h2 class="academy-section-title">Publications</h2>
+            <div class="academy-section-card">
+              <div class="p-3">
+                <ul>
+                  <li>
+                    <strong>Empirical Analysis of Configuration-Driven Performance in Cloud-Deployed ELK Stacks</strong>,
+                    2026 IEEE 2nd International Conference on Consumer Technology (ICCT-Pacific), Paper ID: 1571223576.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -385,4 +400,32 @@ html {
     margin-bottom: -1.2rem;
   }
 }
+
+/* styles for upcoming events and inline image link */
+.upcoming-events {
+  margin-top: 12px;
+  padding: 12px;
+  background: #fffaf6;
+  border: 1px solid var(--academy-border);
+  border-radius: 8px;
+}
+.upcoming-events h3 { margin: 0 0 6px 0; color: var(--academy-navy); }
+.inline-img-link { display: inline-flex; gap: 8px; align-items: center; text-decoration: none; color: inherit; }
+.inline-img-link img { width: 40px; height: 40px; object-fit: cover; border-radius: 6px; border: 1px solid var(--academy-border); }
+.event-link { display: inline-block; margin-top: 8px; padding: 6px 10px; background: #0b74de; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; }
+
 </style>
+
+/* two-columns layout */
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .two-columns {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
