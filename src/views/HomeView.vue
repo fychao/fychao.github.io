@@ -15,6 +15,9 @@
             <img class="photo-hero-img" src="/imgs/MyPhoto2024.jpeg" alt="August F.Y. Chao" title="Me, 2024" />
           </div>
         </div>
+        <div class="academy-quote">
+          張震嶽 Ayal Komod 分享，多年前單車環島騎回家時，媽媽只對他說了一句：「上坡要努力，下坡要開心」。
+        </div>
         <div class="card-text">
           <div class="two-columns">
             <section id="about-me" class="academy-section tidy-section">
