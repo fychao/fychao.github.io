@@ -1,9 +1,12 @@
 <ol>
   <li>
+    <p><strong>A. Chao</strong>, “Resource-Aware IoT Intrusion Detection and Trade-Off Analysis for Edge Security,” in <em>Proc. 2026 8th Int. Conf. on Computer Communication and the Internet (ICCCI)</em>, Okayama, Japan, Jun. 2026.</p>
+  </li>
+  <li>
     <p>林秉賢、林佑倫、趙世均、<strong>趙逢毅</strong>, “熱點驅動攝影機佈建中基於曲率的決定性失效,” <em>第二十四屆離島資訊技術與應用研討會 (ITAOI 2026)</em>, 2026. <strong>(最佳論文獎)</strong></p>
   </li>
   <li>
-    <p><strong>趙逢毅</strong>, “邊緣運算下智慧觀光人流監控之自適應推論研究：以Early Exit Transformer應用於軍事地堡為例,” 第37屆<em>國際資訊管理學術研討會 (ICIM 2026)</em>, 國立臺北科技大學, 2026. <strong>(入圍最佳論文獎)</strong></p>
+    <p>黃崇威、<strong>趙逢毅</strong>, “邊緣運算下智慧觀光人流監控之自適應推論研究：以Early Exit Transformer應用於軍事地堡為例,” 第37屆<em>國際資訊管理學術研討會 (ICIM 2026)</em>, 國立臺北科技大學, 2026. <strong>(入圍最佳論文獎)</strong></p>
   </li>
   <li>
     <p>B.-Y. Li, C.-S. Wang, and <strong>A. Chao</strong>, “Beyond Balancing: A CTGAN-SMOTE Framework for Robust Data Generation in Big Data Analytics,” in <em>Proc. 2026 IEEE Int. Conf. on Big Data Analysis (ICBDA)</em>, Waseda University, Tokyo, Japan, Apr. 2026.</p>
