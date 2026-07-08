@@ -1,5 +1,8 @@
 <ol>
   <li>
+    <p><strong>August F. Y. Chao</strong> and Qing-Feng Lin, “Reliable Structured Feedback Generation for Educational LLM Systems Under Early Exit,” in <em>Proc. 2026 IEEE Int. Conf. on Consumer Electronics – Taiwan (ICCE-Taiwan)</em>, Jul. 2026.</p>
+  </li>
+  <li>
     <p><strong>A. Chao</strong>, “Resource-Aware IoT Intrusion Detection and Trade-Off Analysis for Edge Security,” in <em>Proc. 2026 8th Int. Conf. on Computer Communication and the Internet (ICCCI)</em>, Okayama, Japan, Jun. 2026.</p>
   </li>
   <li>

@@ -122,6 +122,16 @@
               <div class="p-3">
                 <ul>
                   <li>
+                    <strong>Schema-portable adaptive early-exit transformer for resource-aware IoT intrusion detection</strong>,
+                    August F. Y. Chao,
+                    <em>Journal of Network and Computer Applications</em>, Vol. 253, 104534, Sep. 2026.
+                  </li>
+                  <li>
+                    <strong>Reliable Structured Feedback Generation for Educational LLM Systems Under Early Exit</strong>,
+                    August F. Y. Chao, Qing-Feng Lin,
+                    2026 IEEE International Conference on Consumer Electronics – Taiwan (ICCE-Taiwan), Jul. 2026.
+                  </li>
+                  <li>
                     <strong>Empirical Analysis of Configuration-Driven Performance in Cloud-Deployed ELK Stacks</strong>,
                     2026 IEEE 2nd International Conference on Consumer Technology (ICCT-Pacific), Paper ID: 1571223576.
                   </li>
