@@ -17,7 +17,7 @@
             <v-col cols="12" md="12">
               <div id="journal" style="position:relative; top:-96px; height:0;"></div>
               <section class="academy-section">
-                <h2 class="academy-section-title">Journal</h2>
+                <h2 class="academy-section-title">Journal.</h2>
                 <v-card outlined class="mb-4 inner-full academy-section-card">
                   <div class="p-3" v-html="journalsHtml"></div>
                 </v-card>
