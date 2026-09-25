@@ -1,5 +1,14 @@
 <ol>
   <li>
+    <p>陳瑤光、<strong>August Chao</strong>, “Progress-Aware Branch Pruning for Repository-Level Coding Agents: A Preliminary Engineering Study,” <em>2026網際網路研討會 (TANET 2026)</em>, 2026.</p>
+  </li>
+  <li>
+    <p>劉興源、凃彥任、<strong>趙逢毅</strong>, “以攻擊誘發任務偏離評估大型語言模型之 LLM01 提示詞注入弱點,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立澎湖科技大學, 2026.</p>
+  </li>
+  <li>
+    <p>張永昌、廖柏煒、楊曜丞、黃加興、陳正瀚、洪震宇、羅昊文、<strong>趙逢毅</strong>, “校園教學網路分級自主維運：獨立專線、雙層OPNsense防火牆與ELK監控之架構設計與成效驗證,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立澎湖科技大學, 2026.</p>
+  </li>
+  <li>
     <p><strong>August Chao</strong> and Qing-Feng Lin, “Reliable Structured Feedback Generation for Educational LLM Systems Under Early Exit,” in <em>Proc. 2026 IEEE Int. Conf. on Consumer Electronics – Taiwan (ICCE-Taiwan)</em>, Jul. 2026.</p>
   </li>
   <li>
@@ -53,7 +62,7 @@
   <li><strong>August Chao</strong> and Siaw-Fong Chung. 2010. “A Measurement of Metaphorical Relations in Mandarin Lexemes with Radical mu4: A Study based on Dictionary Explanation.” In the Proceedings of the Eleventh Chinese Lexical Semantics Workshop (CLSW 2010). Soochow University, China. May 21-23. pp. 148-154.</li>
   <li>Chung, Siaw-Fong, <strong>August Chao</strong> and Yi-Chen Hsieh, “VocabAnalyzer: A Referred Word List Analyzing Tool with Keyword, Concordancing and N-gram Functions”. in Proceedings of the Pacific Asia Conference on Language, Information and Computation (PACLIC). Hong Kong, China. December 2-4, 2009.</li>
   <li><strong>August Chao</strong>, Vicky C.H. Huang, "Digital Citizen Media Network: An Open Source System Development Perspective", International Association for Intercultural Communication Studies, Kumamoto Gakuen University, Japan, September 18-20, 2009.</li>
-  <li>Chung, Siaw-Fong, Chun-hung Chen and <strong>August Chao</strong>. “Related Ontological Concepts of Mandarin Metaphors.”, Proceedings of the Third IEEE International Conference on Semantic Computing (ICSC). Berkeley, CA, USA. September 14-16, 2009.</li>
+  <li>Chung, Siaw-Fong, Chun-hung Chen and <strong>August Chao</strong>. “Building a Database of Related Concepts of Mandarin Metaphors Based on WordNet and SUMO.”, Proceedings of the Third IEEE International Conference on Semantic Computing (ICSC). Berkeley, CA, USA. September 14-16, 2009.</li>
   <li>楊亨利、<strong>趙逢毅</strong>，“兩岸三地問答平台之比較初探，十五屆海峽兩岸資訊管理發展與策略學術研討會，2009年8月18-20日，同濟大學，中國上海。</li>
   <li>Heng-Li Yang, <strong>August Chao</strong>, “Design and Implementation of SOA-Driven Campus Email Service”, Business and Information 2009, July 6~8, Kuala Lumpur, Malaysia.</li>
   <li>楊亨利、<strong>趙逢毅</strong>，“協助搜尋文獻的平台之芻議”，十三屆海峽兩岸資訊管理發展與策略學術研討會，2007年8月18-20日，北京交通大學，中國北京。</li>
