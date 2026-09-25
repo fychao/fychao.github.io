@@ -1,12 +1,15 @@
 <ol>
   <li>
-    <p>陳瑤光、<strong>August Chao</strong>, “Progress-Aware Branch Pruning for Repository-Level Coding Agents: A Preliminary Engineering Study,” <em>2026網際網路研討會 (TANET 2026)</em>, 2026.</p>
+    <p><strong>August Chao</strong>, “When AI Plays the Cultural Game: AI-Mediated Regeneration of Penghu Bokua as Language Play in Digital Discourse,” <em>The 38th Conference on Computational Linguistics and Speech Processing (ROCLING 2026)</em>, National Tsing Hua University, Hsinchu, Taiwan, Nov. 6-7, 2026.</p>
   </li>
   <li>
-    <p>劉興源、凃彥任、<strong>趙逢毅</strong>, “以攻擊誘發任務偏離評估大型語言模型之 LLM01 提示詞注入弱點,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立澎湖科技大學, 2026.</p>
+    <p>陳瑤光、<strong>August Chao</strong>, “Progress-Aware Branch Pruning for Repository-Level Coding Agents: A Preliminary Engineering Study,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立臺北護理健康大學, 2026年10月29-31日.</p>
   </li>
   <li>
-    <p>張永昌、廖柏煒、楊曜丞、黃加興、陳正瀚、洪震宇、羅昊文、<strong>趙逢毅</strong>, “校園教學網路分級自主維運：獨立專線、雙層OPNsense防火牆與ELK監控之架構設計與成效驗證,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立澎湖科技大學, 2026.</p>
+    <p>劉興源、凃彥任、<strong>趙逢毅</strong>, “以攻擊誘發任務偏離評估大型語言模型之 LLM01 提示詞注入弱點,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立臺北護理健康大學, 2026年10月29-31日.</p>
+  </li>
+  <li>
+    <p>張永昌、廖柏煒、楊曜丞、黃加興、陳正瀚、洪震宇、羅昊文、<strong>趙逢毅</strong>, “校園教學網路分級自主維運：獨立專線、雙層OPNsense防火牆與ELK監控之架構設計與成效驗證,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立臺北護理健康大學, 2026年10月29-31日.</p>
   </li>
   <li>
     <p><strong>August Chao</strong> and Qing-Feng Lin, “Reliable Structured Feedback Generation for Educational LLM Systems Under Early Exit,” in <em>Proc. 2026 IEEE Int. Conf. on Consumer Electronics – Taiwan (ICCE-Taiwan)</em>, Jul. 2026.</p>
