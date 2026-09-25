@@ -1,5 +1,5 @@
 <ul>
-  <li><strong>August Chao</strong> (2026). Energy-Efficient Early-Exit Inference for On-Device Security in Consumer Electronics. <em>IEEE Consumer Electronics Magazine</em>, pp. 1-9. https://doi.org/10.1109/MCE.2026.3733765. (Early Access)</li>
+  <li><strong>August Chao</strong> (2026). Energy-Efficient Early-Exit Inference for On-Device Security in Consumer Electronics. <em>IEEE Consumer Electronics Magazine</em>, pp. 1-9. https://doi.org/10.1109/MCE.2026.3733765. (Early Access) SCIE</li>
   <li><strong>August Chao</strong> (2026). Schema-portable adaptive early-exit transformer for resource-aware IoT intrusion detection. <em>Journal of Network and Computer Applications</em>, 253, 104534. https://doi.org/10.1016/j.jnca.2026.104534. SCIE</li>
   <li><strong>August Chao</strong>, Wang, C. S., Li, B. Y., &amp; Chen, H. Y. (2024). From hate to harmony: Leveraging large language models for safer speech in times of COVID-19 crisis. Heliyon, 10(16). SCIE</li>
   <li>鍾曉芳、謝承誼、楊慶媛、王潔琴、林慧慧、<strong>趙逢毅</strong>、顏聖哲, 2023.12, '跨語言空白名稱詞平行語料庫建立', 《外國語文研究》 第三十八期, 第 1-35 頁。(THCI)</li>
