@@ -116,6 +116,45 @@
               </div>
             </div>
           </section>
+          <section id="certifications" class="academy-section">
+            <h2 class="academy-section-title">Certifications</h2>
+            <div class="academy-section-card">
+              <div class="p-3 cert-body">
+                <h3 class="cert-group-title">產業人才能力鑑定 (iPAS)</h3>
+                <ul>
+                  <li>114-02-Z02 - AI應用規劃師(數據分析)-中級能力鑑定</li>
+                  <li>114-02-T02 - 資訊安全工程師-中級能力鑑定</li>
+                </ul>
+                <h3 class="cert-group-title">Computer Skills</h3>
+                <ul>
+                  <li>NVIDIA DLI-NLP 講師, 2019</li>
+                  <li>巨量資料分析師初級能力 B-B11-0036-2017</li>
+                  <li>Planner of Business Intelligence: CERPS1510680 (2015)</li>
+                  <li>Application Engineer of Property Management System in Front Office Module for WISE Web Hotel Manager V7.X 資訊系統應用師: CERPS1048398 (2014)</li>
+                  <li>MSCS Big Data (2014)</li>
+                  <li>HP ATA - Servers &amp; Storage (2014)</li>
+                  <li>CompTIA Security+: 7Z4QESTL9CBEKZHC</li>
+                  <li><img class="cert-badge" src="/imgs/InfiniBandEssentials.png" alt="NVIDIA InfiniBand Essential" title="NVIDIA Infiniband Essential" /></li>
+                </ul>
+                <h3 class="cert-group-title">Management</h3>
+                <ul>
+                  <li>財團法人光華管理策進基金會 個案高階講座師資認證 2015A024</li>
+                  <li>Planner of Enterprise Resource Planning: CERPS1308032</li>
+                  <li>IACVA-TW 無形資產鑑價師 師資班結業 (2014)</li>
+                  <li>Planner of Property Management System 旅館資訊系統規劃師: CERPS1408565 (2014)</li>
+                  <li>觀光餐旅客戶關係管理師: TIEA-THCRMM-10200110</li>
+                  <li>觀光餐旅人力資源管理師: TIEA-THHRM-10200067</li>
+                  <li>觀光餐旅消費者行為管理師: TIEA-THCBM-10200086</li>
+                  <li>Google AdWords: 廣告基礎考試, 進階搜尋, 多媒體廣告進階 2015-03</li>
+                </ul>
+                <h3 class="cert-group-title">Language</h3>
+                <ul>
+                  <li>TOEIC 820 (B1), April 2008</li>
+                  <li>觀光餐旅專業英文管理師: TIEA-THPEM-10200215</li>
+                </ul>
+              </div>
+            </div>
+          </section>
           <section id="publications" class="academy-section">
             <h2 class="academy-section-title">Publications</h2>
             <div class="academy-section-card">
@@ -306,6 +345,26 @@ html, body, .v-application, .pub-card, .academy-header, .academy-card, .academy-
 }
 .contact-table .sep { margin: 0 0.5rem; color: #999 }
 .notes-cell img { width: 26px; vertical-align: middle; margin-right: 0.5rem }
+
+/* Certifications section */
+.cert-group-title {
+  font-size: 1.05rem;
+  color: var(--academy-navy);
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  margin: 1.4rem 0 0.4rem 0;
+  padding-left: 0.5rem;
+  border-left: 3px solid var(--academy-gold);
+  letter-spacing: 0.5px;
+}
+.cert-body > .cert-group-title:first-child { margin-top: 0; }
+.cert-body ul { margin-bottom: 0.2rem; }
+.cert-badge {
+  max-height: 3.2rem;
+  vertical-align: middle;
+  border: 1px solid var(--academy-border);
+  border-radius: 4px;
+}
 
 @media (max-width: 600px) {
   .contact-table th { display: block; width: auto; padding-bottom: 0.25rem }

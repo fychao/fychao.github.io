@@ -17,6 +17,9 @@
           <v-list-item href="/#education">
             <v-list-item-title>Education</v-list-item-title>
           </v-list-item>
+          <v-list-item href="/#certifications">
+            <v-list-item-title>Certifications</v-list-item-title>
+          </v-list-item>
         </v-list>
       </v-menu>
   <v-menu offset-y>
