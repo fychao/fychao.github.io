@@ -27,6 +27,9 @@
     <p>B.-Y. Li, C.-S. Wang, and <strong>August Chao</strong>, “Beyond Balancing: A CTGAN-SMOTE Framework for Robust Data Generation in Big Data Analytics,” in <em>Proc. 2026 IEEE Int. Conf. on Big Data Analysis (ICBDA)</em>, Waseda University, Tokyo, Japan, Apr. 2026.</p>
   </li>
   <li>
+    <p><strong>August Chao</strong>, “Empirical Analysis of Configuration-Driven Performance in Cloud-Deployed ELK Stacks,” in <em>Proc. 2026 IEEE 2nd Int. Conf. on Consumer Technology (ICCT-Pacific)</em>, Mar. 2026, Paper ID: 1571223576.</p>
+  </li>
+  <li>
     <p>C.-W. Huang, Y.-C. Lin, J.-Y. Chen, and <strong>August Chao</strong>, “LLM–SLM Hybrid Agents for Secure Audit Processing,” in <em>Proc. 2025 IEEE Global Conf. on Consumer Electronics (GCCE)</em>, 2025.</p>
   </li>
   <li>

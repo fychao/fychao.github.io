@@ -133,9 +133,10 @@
                   </li>
                   <li>
                     <strong>Empirical Analysis of Configuration-Driven Performance in Cloud-Deployed ELK Stacks</strong>,
-                    2026 IEEE 2nd International Conference on Consumer Technology (ICCT-Pacific), Paper ID: 1571223576.
+                    2026 IEEE 2nd International Conference on Consumer Technology (ICCT-Pacific), Mar. 2026, Paper ID: 1571223576.
                   </li>
                 </ul>
+                <router-link class="event-link" to="/publications">View All Publications &amp; Patents</router-link>
               </div>
             </div>
           </section>
