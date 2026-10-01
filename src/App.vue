@@ -49,7 +49,7 @@
       <div class="footer-content">
         <div class="footer-declaration">
           <div class="footer-declaration-title-row">
-            <div class="footer-declaration-title">© 2025 August F.Y. Chao. All rights reserved. ---不自殺宣言---</div>
+            <div class="footer-declaration-title">© 2025 August Chao. All rights reserved. ---不自殺宣言---</div>
             <span class="footer-triangle" @click="showDeclaration = !showDeclaration" :aria-expanded="showDeclaration" tabindex="0" role="button" title="顯示/隱藏宣言">▲</span>
           </div>
           <div v-if="showDeclaration" class="footer-declaration-body">

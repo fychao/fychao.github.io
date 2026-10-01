@@ -5,14 +5,14 @@
       <div class="pub-card academy-card">
         <div class="hero-flex-row">
           <div class="hero-main-content">
-            <h1 class="academy-main-title">August F.Y. Chao, Ph.D.</h1>
+            <h1 class="academy-main-title">August Chao, Ph.D.</h1>
             <div class="academy-big-a-wrap">
               <span class="academy-big-a">Aug</span>
             </div>
             <h1 class="academy-main-title">趙逢毅 助理教授</h1>
           </div>
           <div class="hero-photo-side">
-            <img class="photo-hero-img" src="/imgs/MyPhoto2024.jpeg" alt="August F.Y. Chao" title="Me, 2024" />
+            <img class="photo-hero-img" src="/imgs/MyPhoto2024.jpeg" alt="August Chao" title="Me, 2024" />
           </div>
         </div>
         <div class="academy-quote">
@@ -24,10 +24,10 @@
             <h2 class="academy-section-title tidy-section-title">About Me</h2>
             <div class="academy-section-card tidy-section-card about-me-flex">
               <div class="p-3 tidy-p about-me-text">
-                <p>August F.Y. Chao, Ph.D. — Academic, engineer, and philosopher. Dedicated to research, teaching, and the pursuit of knowledge.</p>
+                <p>August Chao, Ph.D. — Academic, engineer, and philosopher. Dedicated to research, teaching, and the pursuit of knowledge.</p>
                 <div class="bio-block">
                   <p>
-                    August F. Y. Chao (Member, IEEE) is an Assistant Professor with the Department of Computer Science and Information Engineering, National Penghu University of Science and Technology, Penghu, Taiwan, and Chief Engineer at Taiwan Web Service (TWS). His experience includes leading cloud platform architecture and DevOps for the Taiwan Computing Cloud (TWCC) and Taiwania II supercomputer. He previously worked at the National Center for High-Performance Computing and the Industrial Technology Research Institute, focusing on AI-HPC infrastructure and NLP patents. He received the Ph.D. degree in Management Information Systems from National Chengchi University, Taipei, Taiwan, in 2016. His research interests include computational linguistics, AI-HPC systems, cloud service architectures, and IoT-driven intelligent platforms.
+                    August Chao (Member, IEEE) is an Assistant Professor with the Department of Computer Science and Information Engineering, National Penghu University of Science and Technology, Penghu, Taiwan, and Chief Engineer at Taiwan Web Service (TWS). His experience includes leading cloud platform architecture and DevOps for the Taiwan Computing Cloud (TWCC) and Taiwania II supercomputer. He previously worked at the National Center for High-Performance Computing and the Industrial Technology Research Institute, focusing on AI-HPC infrastructure and NLP patents. He received the Ph.D. degree in Management Information Systems from National Chengchi University, Taipei, Taiwan, in 2016. His research interests include computational linguistics, AI-HPC systems, cloud service architectures, and IoT-driven intelligent platforms.
                   </p>
                 </div>
                 <div class="about-contact-table-wrap">
@@ -123,12 +123,12 @@
                 <ul>
                   <li>
                     <strong>Schema-portable adaptive early-exit transformer for resource-aware IoT intrusion detection</strong>,
-                    August F. Y. Chao,
+                    August Chao,
                     <em>Journal of Network and Computer Applications</em>, Vol. 253, 104534, Sep. 2026.
                   </li>
                   <li>
                     <strong>Reliable Structured Feedback Generation for Educational LLM Systems Under Early Exit</strong>,
-                    August F. Y. Chao, Qing-Feng Lin,
+                    August Chao, Qing-Feng Lin,
                     2026 IEEE International Conference on Consumer Electronics – Taiwan (ICCE-Taiwan), Jul. 2026.
                   </li>
                   <li>

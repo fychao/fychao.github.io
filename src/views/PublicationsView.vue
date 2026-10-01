@@ -10,7 +10,7 @@
       <v-card class="pub-card academy-card">
         <blockquote class="academy-quote">
           <span>“In honor of Chao's and Ma's Families. Be A Happy Philosopher”</span>
-          <span class="academy-quote-author">— August F.Y. Chao</span>
+          <span class="academy-quote-author">— August Chao</span>
         </blockquote>
         <v-card-text>
           <v-row>
