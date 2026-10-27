@@ -1,4 +1,5 @@
 <ul>
+  <li><strong>August Chao</strong> (2026). When Is an Explicit Difficulty-Alignment Objective Necessary? A Regime-Dependent Comparison of Depth, Native Uncertainty, and Fusion for Spatio-Temporal Reliability Monitoring. <em>IEEE Access</em>. https://doi.org/10.1109/ACCESS.2026.3747592. (Early Access) SCIE</li>
   <li><strong>August Chao</strong> (2026). Energy-Efficient Early-Exit Inference for On-Device Security in Consumer Electronics. <em>IEEE Consumer Electronics Magazine</em>, pp. 1-9. https://doi.org/10.1109/MCE.2026.3733765. (Early Access) SCIE</li>
   <li><strong>August Chao</strong> (2026). Schema-portable adaptive early-exit transformer for resource-aware IoT intrusion detection. <em>Journal of Network and Computer Applications</em>, 253, 104534. https://doi.org/10.1016/j.jnca.2026.104534. SCIE</li>
   <li><strong>August Chao</strong>, Wang, C. S., Li, B. Y., &amp; Chen, H. Y. (2024). From hate to harmony: Leveraging large language models for safer speech in times of COVID-19 crisis. Heliyon, 10(16). SCIE</li>
