@@ -12,6 +12,9 @@
     <p>張永昌、廖柏煒、楊曜丞、黃加興、陳正瀚、洪震宇、羅昊文、<strong>趙逢毅</strong>, “校園教學網路分級自主維運：獨立專線、雙層OPNsense防火牆與ELK監控之架構設計與成效驗證,” <em>2026網際網路研討會 (TANET 2026)</em>, 國立臺北護理健康大學, 2026年10月29-31日.</p>
   </li>
   <li>
+    <p><strong>August Chao</strong>, “Secure Early-Exit Transformer for IoT Intrusion Detection on Edge Devices,” in <em>Proc. 2026 IEEE 15th Global Conf. on Consumer Electronics (GCCE)</em>, Kobe, Japan, Oct. 26-29, 2026.</p>
+  </li>
+  <li>
     <p><strong>August Chao</strong> and Qing-Feng Lin, “Reliable Structured Feedback Generation for Educational LLM Systems Under Early Exit,” in <em>Proc. 2026 IEEE Int. Conf. on Consumer Electronics – Taiwan (ICCE-Taiwan)</em>, Jul. 2026.</p>
   </li>
   <li>
