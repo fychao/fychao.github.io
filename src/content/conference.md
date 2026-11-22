@@ -27,7 +27,7 @@
     <p>黃崇威、<strong>趙逢毅</strong>, “邊緣運算下智慧觀光人流監控之自適應推論研究：以Early Exit Transformer應用於軍事地堡為例,” 第37屆<em>國際資訊管理學術研討會 (ICIM 2026)</em>, 國立臺北科技大學, 2026. <strong>(入圍最佳論文獎)</strong></p>
   </li>
   <li>
-    <p>B.-Y. Li, C.-S. Wang, and <strong>August Chao</strong>, “Beyond Balancing: A CTGAN-SMOTE Framework for Robust Data Generation in Big Data Analytics,” in <em>Proc. 2026 IEEE Int. Conf. on Big Data Analysis (ICBDA)</em>, Waseda University, Tokyo, Japan, Apr. 2026.</p>
+    <p><strong>August Chao</strong>, C.-S. Wang, H.-Y. Chen, B.-Y. Li, and J.-L. Chen, “Beyond Balancing: A CTGAN-SMOTE Framework for Robust Data Generation in Big Data Analytics,” in <em>Proc. 2026 11th Int. Conf. on Big Data Analytics (ICBDA)</em>, Waseda University, Tokyo, Japan, Apr. 11-14, 2026, pp. 122-126. https://doi.org/10.1109/ICBDA69616.2026.11762923.</p>
   </li>
   <li>
     <p><strong>August Chao</strong>, “Empirical Analysis of Configuration-Driven Performance in Cloud-Deployed ELK Stacks,” in <em>Proc. 2026 IEEE 2nd Int. Conf. on Consumer Technology (ICCT-Pacific)</em>, Mar. 2026, Paper ID: 1571223576.</p>
